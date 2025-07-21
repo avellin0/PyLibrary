@@ -25,8 +25,8 @@ def read_epub(book_name):
     
     capitulos = []  # Lista para armazenar os capítulos do livro
     result = []    
-        
-        
+         
+         
     book = epub.read_epub(f"src/books/{book_name}.epub")
     
     for item in book.get_items():
