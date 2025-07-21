@@ -1,6 +1,6 @@
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, Request, Response
-from reader import read_epub
+from src.reader import read_epub
 
 app = FastAPI()
 
